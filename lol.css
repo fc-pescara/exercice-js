@@ -1,0 +1,126 @@
+.onereponseone {
+    height: 100px;
+    width: 500px;
+    background: rgb(156, 156, 156);
+    font-size: 50px;
+    text-align: center;
+}
+
+.quizzone {
+    font-size: 50px;
+    text-align: center;
+    height: 300px;
+    width: 400px;
+background: gold;
+transform: translate(100%);
+}
+
+.onereponsetwo {
+    font-size: 50px;
+    text-align: center;
+    transform: translate(150%,-105%);
+    height: 500px;
+    width: 500px;
+    background: rgb(87, 83, 83);
+}
+
+
+.bonnereponse{
+    height: 100px;
+    width: 500px;
+    background: rgb(2, 252, 64);
+    font-size: 50px;
+    text-align: center;
+}
+
+.mauvaisereponse {
+    height: 100px;
+    width: 500px;
+    background: rgb(255, 1, 1);
+    font-size: 50px;
+    transform: translate(150%,-105%);
+    text-align: center;
+}
+
+
+
+
+.twoetape {
+    height: 100px;
+    width: 500px;
+    background: rgb(156, 156, 156);
+    font-size: 50px;
+    text-align: center;
+}
+.twoetape1 {
+
+
+    transform: translate(150%,-120%);
+    height: 100px;
+    width: 500px;
+    background: rgb(156, 156, 156);
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.bonnereponse2{
+    height: 100px;
+    width: 500px;
+    background: rgb(2, 252, 64);
+    font-size: 50px;
+    text-align: center;
+}
+
+.mauvaisereponse2 {
+    height: 100px;
+    width: 500px;
+    background: rgb(255, 1, 1);
+    font-size: 50px;
+    transform: translate(150%,-105%);
+    text-align: center;
+}
+
+
+
+.bonnereponse3{
+    height: 100px;
+    width: 500px;
+    background: rgb(2, 252, 64);
+    font-size: 50px;
+    text-align: center;
+    transform: translate(150%,-150%);
+}
+
+
+
+.mauvaisereponse3 {
+    height: 100px;
+    width: 500px;
+    background: rgb(255, 1, 1);
+    font-size: 50px;
+    transform: translate(150%,-55%);
+    text-align: center;
+}
+
+
+
+
+
+.twoetape88 {
+    height: 100px;
+    width: 500px;
+    background: rgb(156, 156, 156);
+    font-size: 50px;
+    text-align: center;
+}
+.twoetape99 {
+
+
+    transform: translate(150%,-120%);
+    height: 100px;
+    width: 500px;
+    background: rgb(156, 156, 156);
+    font-size: 50px;
+    text-align: center;
+}
