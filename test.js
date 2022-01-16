@@ -19,7 +19,7 @@ onereponse2.type="text";
 onereponse2.appendChild(document.createTextNode("Charleroi"));
 document.getElementById("formulaire").appendChild(onereponse2)
 
-onereponse && onereponse.addEventListener('click',function(question) {
+onereponse && onereponse2.addEventListener('click',function(question) {
     onereponse.className="bonnereponse";
     onereponse2.className="mauvaisereponse";
     
@@ -29,7 +29,7 @@ onereponse && onereponse.addEventListener('click',function(question) {
 
 
 
- onereponse2.addEventListener('click',function() {
+ onereponse && onereponse2.addEventListener('click',function() {
  onereponse2.className="mauvaisereponse";
  onereponse.className="bonnereponse";
  
@@ -51,16 +51,21 @@ onereponse && onereponse.addEventListener('click',function(question) {
     onereponse2.appendChild(document.createTextNode("Marseille")); 
 
     quizz.className="twoetape";
-onereponse.className="twoetape"
-onereponse2.className="twoetape1"
+onereponse.className="twoetape";
+onereponse2.className="twoetape";
 
-onereponse && onereponse2.addEventListener('onclick', event=> {
+
+
+onereponse && onereponse2.addEventListener('click', function(question2) {
+
+  onereponse.className="twoetape"
+  onereponse2.className="twoetape"
+
     onereponse.className="bonnereponse2";
-    onereponse2.className="mauvaisereponse";
+    onereponse2.className="mauvaisereponse2";
 
     
-});
-      
+ 
 
 
 
@@ -86,15 +91,18 @@ onereponse2 && onereponse.addEventListener('click', event => {
     onereponse.className="twoetape"
     onereponse2.className="twoetape"
 
-     });
+     
 
      onereponse && onereponse2.addEventListener('click',function(question1) {
     
         onereponse.className="twoetape"
         onereponse2.className="twoetape"
 
-        onereponse2.className="bonnereponse3"
-        onereponse.className="mauvaisereponse3"
+
+
+        
+        onereponse2.className="bonnereponse2"
+        onereponse.className="mauvaisereponse2"
 
 
        
@@ -108,19 +116,20 @@ onereponse2 && onereponse.addEventListener('click', event => {
 });
 
       
-});
 
 });
-}
+});    
+});
+});
+};
 
 
 
 createquestion();
 
-question();
-question1();
-question2();
-   
+
+
+
 
 
 
